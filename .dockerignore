@@ -8,7 +8,7 @@
 
 !docker/build-rust-all.sh
 !docker/builder/*.sh
-!docker/tools/boto.cfg
+!docker/tools/boto.cfgg
 
 
 !.cargo/
@@ -27,7 +27,7 @@
 !api/doc/
 !crates/indexer/migrations/**/*.sql
 !ecosystem/indexer-grpc/indexer-grpc-parser/migrations/**/*.sql
-!terraform/helm/aptos-node/
+!terraform/helm/
 !terraform/helm/genesis/
 !testsuite/forge/src/backend/k8s/
 !third_party/move/move-prover/boogie-backend/**/*.bpl
